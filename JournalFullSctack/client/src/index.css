@@ -1,0 +1,214 @@
+body {
+  text-align: center;
+  font-family: Gloria Hallelujah;
+  font-size: 23px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgba(189, 188, 188, 0.719);
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.line {
+  margin-top: 50px;
+  height: 5px;
+  background-image: linear-gradient(
+    to right,
+    rgb(255, 0, 0),
+    rgba(2, 67, 245, 0.863),
+    rgb(255, 0, 0)
+  );
+  border: none;
+}
+.header {
+  color: red;
+}
+.underline {
+  color: rgba(255,0, 0);
+}
+.content {
+  color: rgb(255, 0, 0);
+}
+.contentContainer {
+  background-color: rgb(15, 0, 223);
+}
+.formText {
+  color: blue;
+}
+.commentText {
+  color: rgb(255, 0, 0);
+}
+.commentArea {
+  border-radius: 25px;
+  height: 80px;
+  width: 250px;
+  text-align: center;
+  padding: 15px;
+  font-family: Gloria Hallelujah;
+  font-size: 15px;
+  font-weight: 900;
+  color: rgb(15, 0, 223);
+  background-color: rgb(255, 0, 0);
+  margin-left: 130px;
+}
+.titleInput {
+  background-color: rgb(2, 26, 245);
+  color: rgb(255, 0, 0);
+  height: 35px;
+  width: 500px;
+  border-radius: 25px;
+  padding: 16px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 900;
+  font-family: Gloria Hallelujah;
+}
+.submitBtn {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 220px;
+  height: 40px;
+  width: 85px;
+  border-radius: 25px;
+  background-color: rgb(15, 0, 223);
+  color: rgb(255, 0, 0);
+  font-family: Gloria Hallelujah;
+  font-size: 20px;
+  font-weight: 900;
+}
+.commentSubmitBtn {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 220px;
+  height: 40px;
+  width: 85px;
+  border-radius: 25px;
+  background-color: rgb(255, 0, 0);
+  color: rgb(2, 26, 245);
+  font-family: Gloria Hallelujah;
+  font-size: 20px;
+  font-weight: 900;
+}
+.entryContainer {
+  margin-left: 85px;
+  display: flex;
+  flex-direction: column;
+}
+.entryArea {
+  border-radius: 25px;
+  height: 150px;
+  width: 500px;
+  text-align: center;
+  padding: 15px;
+  font-family: Gloria Hallelujah;
+  font-size: 25px;
+  font-weight: 900;
+  color: rgb(255, 0, 0);
+  background-color: rgb(15, 0, 223);
+  margin-left: 2px;
+}
+.entryContainer {
+  margin-left: 350px;
+  display: flex;
+  flex-direction: column;
+}
+.date {
+  color: rgb(255, 0, 0);
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 900;
+}
+.comments {
+  margin-right: 60px;
+  color: rgb(2, 26, 245);
+  list-style: none;
+}
+li {
+  padding: 2%;
+}
+.smallLine {
+  height: 5px;
+  width: 650px;
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 0, 0, 0),
+    rgba(255, 0, 0),
+    rgba(0, 255, 234, 0)
+  );
+  border: none;
+}
+.deleteBtn {
+  height: 40px;
+  width: 85px;
+  border-radius: 25px;
+  background-color: rgb(2, 26, 245);
+  color: rgb(255, 0, 0);
+  font-family: Gloria Hallelujah;
+  font-size: 20px;
+  font-weight: 900;
+}
+.entryDeleteBtn {
+  height: 40px;
+  width: 85px;
+  border-radius: 25px;
+  background-color: rgb(255, 0, 0);
+  color: rgb(2, 26, 245);
+  font-family: Gloria Hallelujah;
+  font-size: 20px;
+  font-weight: 900;
+}
+.commentsDiv {
+  background-color: red;
+  width: 30%;
+  margin-left: 412px;
+  border-radius: 25px;
+  margin-top: 10px;
+}
+.entryFormArea {
+  background-color: red;
+  border-radius: 25px;
+}
+.navBar {
+  background-color: rgb(2, 26, 245);
+  overflow: hidden;
+  border-radius: 25px;
+  margin-bottom: 20px;
+  margin-left: 450px;
+  font-family: Gloria Hallelujah;
+  width: 25.6%;
+}
+.navBar a {
+  float: left;
+  color: red;
+  text-align: center;
+  font-weight: 999;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.navBar a:hover {
+  background-color: rgb(255, 0, 0);
+  color: rgb(2, 26, 245);
+}
+.navBar a.active {
+  background-color: red;
+  color: rgb(2, 26, 245);
+}
+.homeContainer {
+  background-color: rgb(2, 26, 245);
+  border-radius: 25px;
+}
+.homeTitle {
+  color: red;
+}
+.commentFormContainer {
+  margin-left: 350px;
+  display: flex;
+  flex-direction: column;
+}
+#entryList {
+background-color: rgb(2, 26, 245);
+border-radius: 25px;
+margin-bottom: 10px;
+}

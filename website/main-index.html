@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/main-index.css" />
+    <link rel="stylesheet" href="/css/all.css" />
+    <link rel="stylesheet" href="/css/brands.css" />
+    <link rel="stylesheet" href="./css/brands.css" />
+    <link rel="stylesheet" href="modal/index.css">
+    <link rel="stylesheet" href="./modal2/index2.css">
+    <link rel="stylesheet" href="./modal3/index3.css">
+    <title>Roberts' Web Design</title>
+  </head>
+  <body onload="document.getElementById('defaultOpen').click();">
+    <div class="bgimg">
+      <div class="middle">
+        <h1 class="top-text">ROBERT'S COMING</h1>
+        <hr class="img-line" />
+        <h3 id="countDown"></h3>
+      </div>
+    </div>
+    <button
+      class="tablink"
+      onclick="openPage('Home', this, 'grey')"
+      id="defaultOpen"
+    >
+      Home
+    </button>
+    <button class="tablink" onclick="openPage('About', this, 'grey')">
+      About
+    </button>
+    <button class="tablink" onclick="openPage('Rates', this, 'grey')">
+      Rates
+    </button>
+    <button class="tablink" onclick="openPage('Contact', this, 'grey')">
+      Contact
+    </button>
+
+    <div id="Home" class="tabcontent" id="defaultOpen">
+      <h2 class="home-top-text1">
+        Welcome to my page. I hope you see me as a professional and that I do
+        great work.<br />I look forward to hearing from you and hopefully
+        working with you on a future project.
+      </h2>
+      <h2 class="home-top-text2">Be Cool and Code On!</h2>
+      <br /><br /><br /><br /><br />
+      <div class="avatar-and-resume">
+        <div class="avatar-container">
+          <img
+            src="./images/WIN_20210617_13_04_10_Pro.jpg"
+            alt="Robert"
+            class="avatar"
+          />
+          <div class="overlay">Robert Scalf C.E.O.</div>
+        </div>
+        <div class="resume">
+          <h2 class="button-text">Download My Resume!</h2>
+          <button class="button">
+            <a href="./resume/scalfResume.odt" download>
+              <i class="fas fa-download" id="download"> Download</i>
+            </a>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div id="About" class="tabcontent">
+      <u class="underline"
+        ><h2 class="about-top-text1">A Brief History About Me</h2></u
+      >
+      <h3 class="about-top-text2">
+        I am a certified full stack developer. I got my certifications through
+        <a href="" target="_blank" class="persevere">Persevere</a>,<br />
+        a non profit organization that helps people to learn code and gives
+        people<br />a second chance at life. My strong suits are JavaScript and
+        MongoDB. I've <br />worked for several notable companies; Google,
+        Blizzard, Rockstar Games, <br />and Amazon just to name a few. I would
+        be a great addition to your company.<br />
+        I would bring not only my coding skills but my people skills as well.
+        I'm a great <br />team player and problem solver. I would enjoy taking
+        your company to the next level.
+      </h3>
+      <div>
+        <hr class="line" />
+      </div>
+      <h2 class="about-text">These are some of the projects I've completed.</h2>
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="./images/Screenshot (107).png" class="project1" />
+          <div class="text">Project One</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="./images/Screenshot (106).png" class="project2" />
+          <div class="text">Project Two</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="./images/Screenshot (102).png" class="project3" />
+          <div class="text">Project Three</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">4 / 5</div>
+          <img src="./images/Screenshot (101).png" class="project4" />
+          <div class="text">Project Four</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">5 / 5</div>
+          <img src="./images/Screenshot (100).png" class="project5" />
+          <div class="text">Project Five</div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br />
+
+      <div style="text-align: center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+      </div>
+      <hr class="line" />
+      <div class="skills-container">
+        <h2 class="skill-h2">Languages Known</h2>
+        <p class="skill-text">HTML</p>
+        <div class="container">
+          <div class="skills html">100%</div>
+        </div>
+
+        <p class="skill-text">CSS</p>
+        <div class="container">
+          <div class="skills css">95%</div>
+        </div>
+
+        <p class="skill-text">JavaScript</p>
+        <div class="container">
+          <div class="skills js">85%</div>
+        </div>
+
+        <p class="skill-text">NodeJS</p>
+        <div class="container">
+          <div class="skills py">80%</div>
+        </div>
+      </div>
+    </div>
+    <div id="Rates" class="tabcontent">
+      <!-- Rates-Column 1 -->
+      <h2 class="rates-top-text">Rates I charge for web design.</h2>
+      <div class="columns">
+        <ul class="price">
+          <li class="header1">Basic</li>
+          <li class="grey">$ 9.99 / year</li>
+          <li class="rates-list">10GB Storage</li>
+          <li class="rates-list">10 Emails</li>
+          <li class="rates-list">10 Domains</li>
+          <li class="rates-list">1GB Bandwidth</li>
+          <li class="grey">
+          <a id="myBtn"  target="blank" class="price-button">Sign Up</a>
+          </li>
+        </ul>
+      </div>
+        <!-- The-Modal -->
+      <div id="modal">
+        <div id="myModal" class="modal">
+          <!-- Modal content -->
+          <div class="modal-content">
+            <span class="close1">&times;</span>
+            <h1>Sign Up</h1>
+            <hr />
+            
+            <label for="email" name="email" required>
+            <h2>Email</h2>
+            <input type="text" placeholder="email"/>
+            </label>
+            
+            <label for="pasword" name="psw" required>
+            <h2>Password</h2>
+            <input type="text" placeholder="password"/>
+            </label>
+            
+            <label for="psw-repeat" name="psw-rpt" required>
+            <h2>Repeat Password</h2>
+            <input type="text" placeholder="repeat password" />
+            </label> 
+            
+            <label>
+            <input type="checkbox" checked="checked" name="remember">Remember Me</input>
+            </label>
+          
+            <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+          
+              <div class="clearfix">
+              <button type="button" class="cancelbtn">Cancel</button>
+              <button type="submit" class="signupbtn">Sign Up</button>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+<!-- Rates-Column 2 -->
+      <div class="columns">
+        <ul class="price">
+          <li class="header1">Pro</li>
+          <li class="grey">$ 24.99 / year</li>
+          <li class="rates-list">25GB Storage</li>
+          <li class="rates-list">25 Emails</li>
+          <li class="rates-list">25 Domains</li>
+          <li class="rates-list">2GB Bandwidth</li>
+          <li class="grey">
+            <a id="myBtn2" target="blank" class="price-button">Sign Up</a>
+          </li>
+        </ul>
+      </div>
+<!-- The-Modal2 -->
+      <div id="modal2">
+<div id="myModal2" class="modal">
+  <!-- Modal2 content -->
+  <div class="modal-content">
+    <span class="close2">&times;</span>
+    <h1>Sign Up</h1>
+    <hr />
+    
+    <label for="email" name="email" required>
+    <h2>Email</h2>
+    <input type="text" placeholder="email"/>
+    </label>
+    
+    <label for="pasword" name="psw" required>
+    <h2>Password</h2>
+    <input type="text" placeholder="password"/>
+    </label>
+    
+    <label for="psw-repeat" name="psw-rpt" required>
+    <h2>Repeat Password</h2>
+    <input type="text" placeholder="repeat password" />
+    </label> 
+    
+    <label>
+  <input type="checkbox" checked="checked" name="remember">Remember Me</input>
+  </label>
+  
+  <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+  
+  <div class="clearfix">
+      <button type="button" class="cancelbtn">Cancel</button>
+      <button type="submit" class="signupbtn">Sign Up</button>
+    </div>
+  
+</div>
+</div>
+      </div>
+<!-- Rates-Column 3 -->
+      <div class="columns">
+        <ul class="price">
+          <li class="header1">Premium</li>
+          <li class="grey">$ 49.99 / year</li>
+          <li class="rates-list">50GB Storage</li>
+          <li class="rates-list">50 Emails</li>
+          <li class="rates-list">50 Domains</li>
+          <li class="rates-list">5GB Bandwidth</li>
+          <li class="grey">
+            <a id="myBtn3"  target="blank" class="price-button">Sign Up</a>
+          </li>
+        </ul>
+      </div>
+      <!-- The-Modal3 -->
+      <div id="modal3">
+        <div id="myModal3" class="modal">
+          <!-- Modal3 content -->
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <h1>Sign Up</h1>
+            <hr class="line" />
+            
+            <label for="email" name="email" required>
+            <h2>Email</h2>
+            <input type="text" placeholder="Email"/>
+            </label>
+            
+            <label for="pasword" name="psw" required>
+            <h2>Password</h2>
+            <input type="text" placeholder="Password"/>
+            </label>
+            
+            <label for="psw-repeat" name="psw-rpt" required>
+            <h2>Confirm Password</h2>
+            <input type="text" placeholder="Confirm Password" />
+            </label> 
+            <div class="checkbox">
+            <label>
+          <input type="checkbox" checked="checked" name="remember" class="check-input">Remember Me</input>
+          </label>
+          </div>
+          <p>By creating an account you agree to our <a href="#" class="terms">Terms & Privacy</a>.</p>
+          
+          <div class="clearfix">
+              <button type="button" class="cancelbtn">Cancel</button>
+              <button type="submit" class="signupbtn">Sign Up</button>
+            </div>
+          
+        </div>
+        </div>
+              </div>
+    </div>
+    <div id="Contact" class="tabcontent">
+      <div class="list-section">
+        <h2 class="contact-top-text">I have several ways to contact me.</h2>
+        <br />
+        <ul class="contact-list">
+          <li class="contact-info" id="email">
+            Email:
+            <h3>
+              <a class="link" href="#" target="blank"
+                >www.robs-web-design.com</a
+              >
+            </h3>
+          </li>
+          <br />
+          <li class="contact-info" id="email">
+            Phone:
+            <h3>123-456-7890</h3>
+          </li>
+          <br />
+          <li class="contact-info" id="email">
+            Address:
+            <h3>111 First St.<br />Rogersville, TN 37857</h3>
+          </li>
+          <li class="contact-info" id="email">Social Media:</li>
+          <br />
+          <!-- <a href="./fontawesome-free-5.15.3-web/svgs/brands/facebook.svg"></a> -->
+          <a class="link" href="#" target="blank">
+            <img src="./icons/facebook.svg" class="icon" /></a
+          ><a class="link" href="#" target="blank">
+            <img src="icons/github.svg" class="icon" /></a
+          ><a class="link" href="#" target="blank"
+            ><img src="icons/linkedin.svg" class="icon" /></a
+          ><a class="link" href="#" target="blank"
+            ><img src="icons/twitter.svg" class="icon"
+          /></a>
+        </ul>
+      </div>
+      <h2 class="contact-bottom-text">I Hope To Hear From You Soon!</h2>
+    </div>
+  </body>
+  <script src="./website.js"></script>
+  <script src="./modal/index.js"></script>
+  <script src="modal2/index2.js"></script>
+  <script src="modal3/index3.js"></script>
+</html>

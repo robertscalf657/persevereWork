@@ -1,0 +1,52 @@
+html{
+height: 100%;
+}
+
+body{
+    margin-top: 160px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: teal;
+}
+
+svg{
+    background-color: wheat;
+    margin: auto;
+    box-shadow:15px 15px 12px rgb(70, 56, 56),
+    -10px -10px 13px rgb(184, 235, 235);
+    border-radius: 25px;
+
+}
+
+#tooltip{
+    margin-top:30px;
+    font-size: 35px;
+    font-weight: bolder;
+    color:rgb(224, 22, 8);
+    background-color: wheat;
+    box-shadow: 10px 12px 12px rgb(70, 56, 56),
+    -5px -5px 13px rgb(184, 235, 235);
+    border-radius: 10px;
+}
+#title{
+    font-size: 30px;
+    font-weight: bolder;
+    font-style: italic;
+    fill:rgb(222, 22, 2)
+}
+
+.bar{
+    background-color: rgb(5, 101, 179);
+    border-color: rgb(5, 101, 179);
+    fill:rgb(5, 101, 179);
+}
+.bar:hover{
+    fill:rgb(224, 22, 8)
+}
+g{
+    color:rgb(224, 22, 8);
+}
+
+

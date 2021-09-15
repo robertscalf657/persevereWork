@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./Fonts" />
+    <title>Dangerous Designs</title>
+  </head>
+
+  <body>
+    
+    <!-- First Parallax Image with Logo Text -->
+    <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+      <div class="container">
+        <div class="topnav">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#portfolio">Portfolio</a>
+          <a href="#contact">Contact</a>
+          
+      </div>
+    </div>
+      <div class="">
+        <span class="title">Dangerous<span>Designs</span><br />
+        <span onclick="openNav()">
+    </span>
+      </div>
+    </div>
+    <u class="underline"><h1 class="about-sec">HOME</h1></u>
+    <h2 class="home-text">Welcome to my page.</h2>
+      <p class="home-text2">My name is Robert Scalf and I'm a full stack developer. Here you will see some things I've created and some things I've worked on. I hope you like what you see. I look forward to hearing from you and hopefully working with you.</p>
+
+    <!-- Container (About Section) -->
+    <div class="" id="about">
+      <div
+      class="bgimg-4" id="section-about">
+        <span class="title">ABOUT</span>
+    </div>
+      <u class="underline"><h1 class="about-sec">ABOUT ME</h1></u>
+      <h2 class=""><em>I love coding</em></h2>
+      <p>
+        We have created a fictional "personal" website/blog, and our fictional
+        character is a hobby photographer. Lorem ipsum dolor sit amet,
+        consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+        consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      </p>
+      <br>
+      <br>
+      <br>
+        <div class="myImgContainer">
+          <img 
+            src="./images/WIN_20210617_13_04_10_Pro.jpg"
+            class="me"
+            alt="me"
+          />
+          <a href="./resume/scalfResume.odt" download>
+          <p class="myImg"><abbr title="Click Here For My Resume">
+            <u>Robert Scalf</u></abbr>
+          </p>
+        </a>
+        </div>
+
+        <!-- Hide this text on small devices -->
+        <div class="">
+          <p>
+            Welcome to my website. I am lorem ipsum consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+            nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum consectetur
+            adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat.
+          </p>
+        </div>
+      </div>
+      <!-- languages chart -->
+      <hr />
+      <u><h3 class="">Im really good at:</h3></u>
+      <div class="chart-container">
+        <p class="">JavaScript</p>
+        <div class="">
+          <div class="javascript">90%</div>
+        </div>
+        <p class="">HTML</p>
+        <div class="">
+          <div class="html">85%</div>
+        </div>
+        <p class="">CSS</p>
+        <div class="">
+          <div class="css">75%</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Second Parallax Image with Portfolio Text -->
+    <div
+      class="bgimg-2 w3-display-container w3-opacity-mi"
+      id="section-portfolio"
+    >
+      <div class="w3-display-middle" id="portfolio">
+        <span class="title">PORTFOLIO</span>
+      </div>
+    </div>
+
+    <!-- Container (Portfolio Section) -->
+    <div class="" >
+      <u class="underline"><h1 class="myWork">MY WORK</h1></u>
+      <p class="">
+        <em
+          >Here are some of my latest lorem work ipsum tipsum.<br />
+          Click on the images to make them bigger</em
+        >
+      </p>
+      <br />
+
+      <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+      <div class="img-container" id="img-column">
+        <div class="">
+          <canvas id="canvas" width="200" height="200"></canvas>
+        </div>
+
+        <div class="">
+          <img
+            src="./images/rock.jpg"
+            onclick="onClick(this)"
+            class="image-block"
+            id="rockimg"
+            alt="A big rock"
+          />
+        </div>
+
+        <div class="">
+          <img
+            src="./images/sanfran.jpg"
+            onclick="onClick(this)"
+            class="image-block"
+            id="bridgeimg"
+            alt="Golden Gate"
+          />
+        </div>
+
+        <div class="">
+          <img
+            src="./images/pisa.jpg"
+            onclick="onClick(this)"
+            class="image-block"
+            id="pisaimg"
+            alt="Tower of Pisa"
+          />
+        </div>
+      </div>
+
+      <div class="img-container">
+        <div class="">
+          <img
+            src="./images/Screenshot (111).png"
+            onclick="onClick(this)"
+            class="image-block"
+            id="snakeimg"
+            alt="Green snake"
+          />
+        </div>
+
+        <div class="">
+          <img
+            src="./images/newyork2.jpg"
+            onclick="onClick(this)"
+            class="image-block"
+            id="statueimg"
+            alt="Lady Liberty"
+          />
+        </div>
+
+        <div class="">
+          <img
+            src="./images/london.jpg"
+            onclick="onClick(this)"
+            class="image-block"
+            id="londonimg"
+            alt="London"
+          />
+        </div>
+
+        <div class="">
+          <img
+            src="./images/mountains2.jpg"
+            onclick="onClick(this)"
+            class="image-block"
+            id="mtnimg"
+            alt="A pretty mountain"
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal for full size images on click-->
+    <div id="modal01" class="" onclick="this.style.display='none'">
+      <span class="" title="Close Modal Image"> </span>
+      <div class="">
+        <img id="img01" class="" />
+        <p id="caption" class=""></p>
+      </div>
+    </div>
+
+    <!-- Third Parallax Image with Portfolio Text -->
+    <div class="bgimg-3 w3-display-container w3-opacity-min">
+      <div class="w3-display-middle">
+        <span class="title" id="contact">CONTACT</span>
+      </div>
+    </div>
+
+    <!-- Container (Contact Section) -->
+    <div class="contact-container">
+      <div class="contact-text">
+        <u class="underline"><h1 class="contact-sec">CONTACT INFO</h1></u>
+      </div>
+      <div class="contact-contents">
+        <div class="map-container">
+          <img src="./images/ChurchHill.png" class="map" />
+        </div>
+        <div class="">
+          <div class="contact-info">
+            <u>Location:</u><br />
+            Church Hill, TN<br />
+            <u>Phone:</u><br />123-456-7890<br />
+            <u>Email:</u><br />roberts-web-design2020@gmail.com<br />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <footer>
+        The New Roberts Web Design @
+        <a href="./index.html">www.roberts-web-design.com</a> copyright
+        2020-2023
+      </footer>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>

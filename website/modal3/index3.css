@@ -1,0 +1,145 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: rgba(66, 202, 3, 0.972);
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: yellow;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* THE STYLES I'VE ADDED */
+.line {
+  margin-top: 50px;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(245, 241, 2, 0.75),
+    rgba(0, 0, 0, 0)
+  );
+}
+
+h1 {
+  font-size: 45px;
+}
+
+p {
+  color: yellow;
+}
+
+.checkbox {
+  margin-top: 25px;
+  margin-right: 145px;
+  color: yellow;
+}
+
+.check-input {
+  height: 20px;
+  width: 20x;
+  margin-right: -100px;
+}
+
+input {
+  height: 35px;
+  width: 270px;
+  background-color: yellow;
+  color: green;
+  border-color: green;
+  border-radius: 15px;
+}
+
+.cancelbtn {
+  background-color: green;
+  color: yellow;
+  height: 40px;
+  width: 80px;
+  border-radius: 20px;
+  border-color: green;
+  box-shadow: 8px 8px 13px rgba(29, 28, 28, 0.938),
+    -5px -5px 13px rgba(245, 245, 245, 0.89);
+  margin-right: 20px;
+}
+
+.cancelbtn:hover {
+  background-color: #06db69fd;
+  color: yellow;
+}
+
+.cancelbtn:active {
+  background-color: #06db69fd;
+  color: yellow;
+  box-shadow: 0 5px rgb(85, 84, 84);
+  transform: translateY(4px);
+  box-shadow: inset 8px 8px 10px rgba(36, 34, 34, 0.794),
+    inset -3px -3px 10px rgba(245, 245, 245, 0.733);
+} 
+
+.signupbtn {
+  background-color: green;
+  color: yellow;
+  height: 40px;
+  width: 80px;
+  border-radius: 20px;
+  border-color: green;
+  box-shadow: 8px 8px 13px rgba(29, 28, 28, 0.938),
+    -5px -5px 13px rgba(245, 245, 245, 0.89);
+  margin-left: 20px;
+}
+
+ .signupbtn:hover {
+  background-color: #06db69fd;
+  color: yellow;
+}
+
+.signupbtn:active {
+  background-color: #06db69fd;
+  color: yellow;
+  box-shadow: 0 5px rgb(85, 84, 84);
+  transform: translateY(4px);
+  box-shadow: inset 8px 8px 10px rgba(36, 34, 34, 0.794),
+    inset -3px -3px 10px rgba(245, 245, 245, 0.733);
+} 
+
+
+.terms {
+  text-decoration: none;
+  color: rgb(181, 0, 252);
+}
+
+.terms:hover {
+  color: rgb(255, 0, 0);
+}
